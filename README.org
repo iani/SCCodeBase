@@ -1,0 +1,11 @@
+#+TITLE: SCCodeBase
+#+AUTHOR: MC / IZ
+#+OPTIONS: toc:nil, ^:nil
+
+Managing multiple code repositories for SuperCollider Class Library made easy. 
+
+Drop an alias of a single .sc file from your code repository folder into your User Application Extensions folder (Platform.userExtensionDir or SuperCollider/Extensions in your user Library folder), to add a menu of quarks for easy install / uninstall of code modules. 
+
+RepQuarks is a code management mechanism for SuperCollider based on Quarks. It facilitates combining different quark projects which exist independently in folders on different locations, without having to copy these in the global Quarks directory. This gives additional freedom in working with multiple projects while keeping their files separate, and is especially valuable for sharing code with other people independently from the global Quarks, for example via git repositories.  
+
+For more info, see: README_RepQuarks.rtfd
